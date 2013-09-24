@@ -1,4 +1,4 @@
-# AelTracker
+# AEL Tracker
 
 Ruby wrapper for Advanced Energy Legislation Tracker API.
 
