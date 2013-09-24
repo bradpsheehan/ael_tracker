@@ -1,6 +1,6 @@
 # AelTracker
 
-TODO: Write a gem description
+Ruby wrapper for Advanced Energy Legislation Tracker API.
 
 ## Installation
 
