@@ -14,6 +14,8 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.add_development_dependency "rspec"
+  spec.add_development_dependency "vcr"
+  spec.add_development_dependency "webmock"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
