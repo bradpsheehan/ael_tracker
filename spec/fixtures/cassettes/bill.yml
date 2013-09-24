@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.aeltracker.org/api/bills/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 24 Sep 2013 20:47:47 GMT
+      Server:
+      - Apache/2.2.14 (Ubuntu)
+      X-Powered-By:
+      - PHP/5.3.2-1ubuntu4.21
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html
+    body:
+      encoding: UTF-8
+      string: '{"bill_id":"1","os_bill_id":"ALB00004667","os_chamber":"lower","os_session":"2013rs","time_stamp_creation":"2013-03-30
+        15:26:04 UTC","time_stamp_update":"2013-08-31 02:31:24 UTC","time_stamp_news_google":"2013-09-24
+        16:25:18 UTC","time_stamp_news_yahoo":"2013-09-24 18:20:04 UTC","time_stamp_os_check":"2013-09-24
+        20:20:01 UTC","auto_time_os_update":"2013-04-20 01:10:01","title":"Relating
+        to contracts for municipal buildings and public utilities systems; to authorize
+        municipalities to enter into agreements with private companies that are registered
+        as service contract providers to provide ancillary service contracts to customers
+        of the utilities system...","chamber_name":"House","number":"HB 119","state":"Alabama","year_filed":"2013","os_date_passed_lower":"0000-00-00","os_date_passed_upper":"0000-00-00","os_date_signed":"0000-00-00","os_status":"introduced","policy_category":"Infrastructure","summary":"Under
+        existing law, the governing body of a municipality may contract with a private
+        company for the construction, extension, or repair of a municipal building
+        plant, waterworks system, or electric light and power plant.\r\nThis bill
+        would authorize the governing body of a municipality to enter into agreements
+        with private companies, registered as service contract providers pursuant
+        to statute, to provide ancillary service contracts to residential utility
+        customers with the endorsement of the municipality. This bill would also authorize
+        the governing body to apply any fees it receives pursuant to such an agreement
+        to its general revenue fund.","actions":[{"actor":"lower","date":"2013-04-18","action":"Motion
+        to Adopt adopted Roll Call 637","type":["amendment:passed"]},{"actor":"lower","date":"2013-04-18","action":"Wood
+        motion to Substitute a Companion Bill adopted Voice Vote","type":["other"]},{"actor":"lower","date":"2013-04-18","action":"Wood  Amendment
+        Offered","type":["amendment:introduced"]},{"actor":"lower","date":"2013-04-18","action":"County
+        and Municipal Government  Amendment Offered","type":["amendment:introduced"]},{"actor":"lower","date":"2013-04-18","action":"Wood
+        motion to Table adopted Roll Call 636","type":["amendment:passed"]},{"actor":"lower","date":"2013-04-18","action":"Third
+        Reading Indefinitely Postponed","type":["bill:failed"]},{"actor":"lower","date":"2013-02-05","action":"Read
+        for the first time and referred to the House of Representatives committee
+        on County and Municipal Government","type":["bill:reading:1","committee:referred"]},{"actor":"lower","date":"2013-02-21","action":"Read
+        for the second time and placed on the calendar  1 amendment","type":["bill:reading:2"]},{"actor":"lower","date":"2013-04-18","action":"Wood
+        motion to Indefinitely Postpone adopted Voice Vote","type":["other"]}],"votes":[{"other_count":"8","yes_count":"95","motion":"Wood
+        motion to Table adopted Roll Call 636","chamber":"lower","chamber_name":"House","session":"2013rs","passed":"1","date":"2013-04-18","no_count":"1","committee":"","tally":[{"leg_id":"ALL000122","name":"Robinson
+        (O)","type":"yes"},{"leg_id":"ALL000120","name":"Roberts","type":"yes"},{"leg_id":"ALL000119","name":"Rich","type":"yes"},{"leg_id":"ALL000118","name":"Poole","type":"yes"},{"leg_id":"ALL000117","name":"Payne","type":"yes"},{"leg_id":"ALL000116","name":"Patterson","type":"yes"},{"leg_id":"ALL000114","name":"Nordgren","type":"yes"},{"leg_id":"ALL000112","name":"Newton
+        (C)","type":"yes"},{"leg_id":"ALL000111","name":"Morrow","type":"yes"},{"leg_id":"ALL000110","name":"Moore
+        (M)","type":"yes"},{"leg_id":"ALL000109","name":"Moore (B)","type":"yes"},{"leg_id":"ALL000107","name":"Millican","type":"yes"},{"leg_id":"ALL000106","name":"Merrill","type":"yes"},{"leg_id":"ALL000105","name":"Melton","type":"yes"},{"leg_id":"ALL000104","name":"McMillan","type":"yes"},{"leg_id":"ALL000103","name":"McCutcheon","type":"yes"},{"leg_id":"ALL000102","name":"McClurkin","type":"yes"},{"leg_id":"ALL000101","name":"McClendon","type":"yes"},{"leg_id":"ALL000099","name":"McCampbell","type":"yes"},{"leg_id":"ALL000098","name":"McAdory","type":"yes"},{"leg_id":"ALL000097","name":"Mask","type":"yes"},{"leg_id":"ALL000096","name":"Love","type":"yes"},{"leg_id":"ALL000095","name":"Long","type":"yes"},{"leg_id":"ALL000094","name":"Lindsey","type":"yes"},{"leg_id":"ALL000093","name":"Lee","type":"yes"},{"leg_id":"ALL000092","name":"Laird","type":"yes"},{"leg_id":"ALL000091","name":"Knight","type":"yes"},{"leg_id":"ALL000089","name":"Jones","type":"yes"},{"leg_id":"ALL000088","name":"Johnson
+        (W)","type":"yes"},{"leg_id":"ALL000087","name":"Johnson (R)","type":"yes"},{"leg_id":"ALL000086","name":"Johnson
+        (K)","type":"yes"},{"leg_id":"ALL000084","name":"Ison","type":"yes"},{"leg_id":"ALL000083","name":"Hurst","type":"yes"},{"leg_id":"ALL000082","name":"Hubbard
+        (M)","type":"yes"},{"leg_id":"ALL000081","name":"Hubbard (J)","type":"yes"},{"leg_id":"ALL000080","name":"Howard","type":"yes"},{"leg_id":"ALL000078","name":"Hill","type":"yes"},{"leg_id":"ALL000077","name":"Henry","type":"yes"},{"leg_id":"ALL000076","name":"Harper","type":"yes"},{"leg_id":"ALL000075","name":"Hammon","type":"yes"},{"leg_id":"ALL000073","name":"Grimsley","type":"yes"},{"leg_id":"ALL000072","name":"Greeson","type":"yes"},{"leg_id":"ALL000071","name":"Greer","type":"yes"},{"leg_id":"ALL000070","name":"Givan","type":"yes"},{"leg_id":"ALL000069","name":"Gaston","type":"yes"},{"leg_id":"ALL000067","name":"Forte","type":"yes"},{"leg_id":"ALL000066","name":"Ford","type":"yes"},{"leg_id":"ALL000065","name":"Fincher","type":"yes"},{"leg_id":"ALL000064","name":"Faust","type":"yes"},{"leg_id":"ALL000063","name":"Farley","type":"yes"},{"leg_id":"ALL000062","name":"England","type":"yes"},{"leg_id":"ALL000061","name":"Drake","type":"yes"},{"leg_id":"ALL000060","name":"DeMarco","type":"yes"},{"leg_id":"ALL000059","name":"Davis","type":"yes"},{"leg_id":"ALL000058","name":"Colston","type":"yes"},{"leg_id":"ALL000057","name":"Collins","type":"yes"},{"leg_id":"ALL000056","name":"Coleman-Evans","type":"yes"},{"leg_id":"ALL000055","name":"Clouse","type":"yes"},{"leg_id":"ALL000054","name":"Chesteen","type":"yes"},{"leg_id":"ALL000053","name":"Carns","type":"yes"},{"leg_id":"ALL000052","name":"Buttram","type":"yes"},{"leg_id":"ALL000141","name":"Butler","type":"yes"},{"leg_id":"ALL000051","name":"Buskey","type":"yes"},{"leg_id":"ALL000050","name":"Burdine","type":"yes"},{"leg_id":"ALL000049","name":"Brown","type":"yes"},{"leg_id":"ALL000048","name":"Bridges","type":"yes"},{"leg_id":"ALL000047","name":"Bracy","type":"yes"},{"leg_id":"ALL000046","name":"Boyd","type":"yes"},{"leg_id":"ALL000045","name":"Boothe","type":"yes"},{"leg_id":"ALL000044","name":"Boman","type":"yes"},{"leg_id":"ALL000043","name":"Black","type":"yes"},{"leg_id":"ALL000042","name":"Beech","type":"yes"},{"leg_id":"ALL000041","name":"Beckman","type":"yes"},{"leg_id":"ALL000040","name":"Baughn","type":"yes"},{"leg_id":"ALL000039","name":"Barton","type":"yes"},{"leg_id":"ALL000037","name":"Ball","type":"yes"},{"leg_id":"ALL000036","name":"Baker","type":"yes"},{"leg_id":"ALL000142","name":"Standridge","type":"other"},{"leg_id":"ALL000113","name":"Newton
+        (D)","type":"other"},{"leg_id":"ALL000108","name":"Mitchell","type":"other"},{"leg_id":"ALL000100","name":"McClammy","type":"other"},{"leg_id":"ALL000085","name":"Jackson","type":"other"},{"leg_id":"ALL000079","name":"Holmes","type":"other"},{"leg_id":"ALL000074","name":"Hall","type":"other"},{"leg_id":"ALL000038","name":"Bandy","type":"other"},{"leg_id":"ALL000123","name":"Rogers","type":"yes"},{"leg_id":"ALL000124","name":"Sanderford","type":"yes"},{"leg_id":"ALL000125","name":"Scott","type":"yes"},{"leg_id":"ALL000126","name":"Sessions","type":"yes"},{"leg_id":"ALL000145","name":"Shedd","type":"yes"},{"leg_id":"ALL000127","name":"Shiver","type":"yes"},{"leg_id":"ALL000129","name":"Todd","type":"yes"},{"leg_id":"ALL000130","name":"Treadaway","type":"yes"},{"leg_id":"ALL000131","name":"Tuggle","type":"yes"},{"leg_id":"ALL000132","name":"Vance","type":"yes"},{"leg_id":"ALL000133","name":"Wallace","type":"yes"},{"leg_id":"ALL000134","name":"Warren","type":"yes"},{"leg_id":"ALL000135","name":"Weaver","type":"yes"},{"leg_id":"ALL000136","name":"Williams
+        (D)","type":"yes"},{"leg_id":"ALL000137","name":"Williams (J)","type":"yes"},{"leg_id":"ALL000138","name":"Williams
+        (P)","type":"yes"},{"leg_id":"ALL000139","name":"Wood","type":"yes"},{"leg_id":"ALL000140","name":"Wren","type":"yes"},{"leg_id":"ALL000121","name":"Robinson
+        (J)","type":"no"}]},{"other_count":"7","yes_count":"97","motion":"Motion to
+        Adopt adopted Roll Call 637","chamber":"lower","chamber_name":"House","session":"2013rs","passed":"1","date":"2013-04-18","no_count":"0","committee":"","tally":[{"leg_id":"ALL000140","name":"Wren","type":"yes"},{"leg_id":"ALL000139","name":"Wood","type":"yes"},{"leg_id":"ALL000138","name":"Williams
+        (P)","type":"yes"},{"leg_id":"ALL000137","name":"Williams (J)","type":"yes"},{"leg_id":"ALL000136","name":"Williams
+        (D)","type":"yes"},{"leg_id":"ALL000135","name":"Weaver","type":"yes"},{"leg_id":"ALL000134","name":"Warren","type":"yes"},{"leg_id":"ALL000133","name":"Wallace","type":"yes"},{"leg_id":"ALL000132","name":"Vance","type":"yes"},{"leg_id":"ALL000131","name":"Tuggle","type":"yes"},{"leg_id":"ALL000130","name":"Treadaway","type":"yes"},{"leg_id":"ALL000129","name":"Todd","type":"yes"},{"leg_id":"ALL000142","name":"Standridge","type":"yes"},{"leg_id":"ALL000127","name":"Shiver","type":"yes"},{"leg_id":"ALL000126","name":"Sessions","type":"yes"},{"leg_id":"ALL000145","name":"Shedd","type":"yes"},{"leg_id":"ALL000125","name":"Scott","type":"yes"},{"leg_id":"ALL000124","name":"Sanderford","type":"yes"},{"leg_id":"ALL000123","name":"Rogers","type":"yes"},{"leg_id":"ALL000122","name":"Robinson
+        (O)","type":"yes"},{"leg_id":"ALL000121","name":"Robinson (J)","type":"yes"},{"leg_id":"ALL000120","name":"Roberts","type":"yes"},{"leg_id":"ALL000119","name":"Rich","type":"yes"},{"leg_id":"ALL000118","name":"Poole","type":"yes"},{"leg_id":"ALL000117","name":"Payne","type":"yes"},{"leg_id":"ALL000116","name":"Patterson","type":"yes"},{"leg_id":"ALL000114","name":"Nordgren","type":"yes"},{"leg_id":"ALL000112","name":"Newton
+        (C)","type":"yes"},{"leg_id":"ALL000111","name":"Morrow","type":"yes"},{"leg_id":"ALL000110","name":"Moore
+        (M)","type":"yes"},{"leg_id":"ALL000109","name":"Moore (B)","type":"yes"},{"leg_id":"ALL000107","name":"Millican","type":"yes"},{"leg_id":"ALL000106","name":"Merrill","type":"yes"},{"leg_id":"ALL000105","name":"Melton","type":"yes"},{"leg_id":"ALL000104","name":"McMillan","type":"yes"},{"leg_id":"ALL000103","name":"McCutcheon","type":"yes"},{"leg_id":"ALL000102","name":"McClurkin","type":"yes"},{"leg_id":"ALL000101","name":"McClendon","type":"yes"},{"leg_id":"ALL000100","name":"McClammy","type":"yes"},{"leg_id":"ALL000099","name":"McCampbell","type":"yes"},{"leg_id":"ALL000098","name":"McAdory","type":"yes"},{"leg_id":"ALL000097","name":"Mask","type":"yes"},{"leg_id":"ALL000096","name":"Love","type":"yes"},{"leg_id":"ALL000095","name":"Long","type":"yes"},{"leg_id":"ALL000094","name":"Lindsey","type":"yes"},{"leg_id":"ALL000093","name":"Lee","type":"yes"},{"leg_id":"ALL000092","name":"Laird","type":"yes"},{"leg_id":"ALL000091","name":"Knight","type":"yes"},{"leg_id":"ALL000089","name":"Jones","type":"yes"},{"leg_id":"ALL000088","name":"Johnson
+        (W)","type":"yes"},{"leg_id":"ALL000087","name":"Johnson (R)","type":"yes"},{"leg_id":"ALL000086","name":"Johnson
+        (K)","type":"yes"},{"leg_id":"ALL000084","name":"Ison","type":"yes"},{"leg_id":"ALL000083","name":"Hurst","type":"yes"},{"leg_id":"ALL000082","name":"Hubbard
+        (M)","type":"yes"},{"leg_id":"ALL000081","name":"Hubbard (J)","type":"yes"},{"leg_id":"ALL000080","name":"Howard","type":"yes"},{"leg_id":"ALL000079","name":"Holmes","type":"yes"},{"leg_id":"ALL000078","name":"Hill","type":"yes"},{"leg_id":"ALL000077","name":"Henry","type":"yes"},{"leg_id":"ALL000076","name":"Harper","type":"yes"},{"leg_id":"ALL000075","name":"Hammon","type":"yes"},{"leg_id":"ALL000074","name":"Hall","type":"yes"},{"leg_id":"ALL000073","name":"Grimsley","type":"yes"},{"leg_id":"ALL000072","name":"Greeson","type":"yes"},{"leg_id":"ALL000071","name":"Greer","type":"yes"},{"leg_id":"ALL000069","name":"Gaston","type":"yes"},{"leg_id":"ALL000067","name":"Forte","type":"yes"},{"leg_id":"ALL000066","name":"Ford","type":"yes"},{"leg_id":"ALL000065","name":"Fincher","type":"yes"},{"leg_id":"ALL000064","name":"Faust","type":"yes"},{"leg_id":"ALL000063","name":"Farley","type":"yes"},{"leg_id":"ALL000062","name":"England","type":"yes"},{"leg_id":"ALL000061","name":"Drake","type":"yes"},{"leg_id":"ALL000060","name":"DeMarco","type":"yes"},{"leg_id":"ALL000059","name":"Davis","type":"yes"},{"leg_id":"ALL000058","name":"Colston","type":"yes"},{"leg_id":"ALL000057","name":"Collins","type":"yes"},{"leg_id":"ALL000056","name":"Coleman-Evans","type":"yes"},{"leg_id":"ALL000055","name":"Clouse","type":"yes"},{"leg_id":"ALL000054","name":"Chesteen","type":"yes"},{"leg_id":"ALL000053","name":"Carns","type":"yes"},{"leg_id":"ALL000052","name":"Buttram","type":"yes"},{"leg_id":"ALL000141","name":"Butler","type":"yes"},{"leg_id":"ALL000051","name":"Buskey","type":"yes"},{"leg_id":"ALL000050","name":"Burdine","type":"yes"},{"leg_id":"ALL000049","name":"Brown","type":"yes"},{"leg_id":"ALL000048","name":"Bridges","type":"yes"},{"leg_id":"ALL000047","name":"Bracy","type":"yes"},{"leg_id":"ALL000046","name":"Boyd","type":"yes"},{"leg_id":"ALL000045","name":"Boothe","type":"yes"},{"leg_id":"ALL000042","name":"Beech","type":"yes"},{"leg_id":"ALL000041","name":"Beckman","type":"yes"},{"leg_id":"ALL000040","name":"Baughn","type":"yes"},{"leg_id":"ALL000039","name":"Barton","type":"yes"},{"leg_id":"ALL000038","name":"Bandy","type":"yes"},{"leg_id":"ALL000036","name":"Baker","type":"yes"},{"leg_id":"ALL000113","name":"Newton
+        (D)","type":"other"},{"leg_id":"ALL000108","name":"Mitchell","type":"other"},{"leg_id":"ALL000085","name":"Jackson","type":"other"},{"leg_id":"ALL000070","name":"Givan","type":"other"},{"leg_id":"ALL000044","name":"Boman","type":"other"},{"leg_id":"ALL000043","name":"Black","type":"other"},{"leg_id":"ALL000037","name":"Ball","type":"other"}]}],"sponsors":[{"leg_id":"ALL000139","updated_at":"2013-09-24
+        00:04:44","full_name":"Randy Wood","first_name":"Randy","middle_name":"","last_name":"Wood","district":"36","office_address":"Room
+        120\n11 S. Union Street\nMontgomery, AL 36130","state_abbreviation":"al","votesmart_id":"27617","party":"Republican","email":"","photo_url":"http:\/\/www.legislature.state.al.us\/graphics\/housepics\/wood_r.jpeg","roles":[{"term":"2011-2014","end_date":null,"district":"36","chamber":"lower","state":"al","party":"Republican","type":"member","start_date":null},{"term":"2011-2014","committee_id":"ALC000014","end_date":null,"chamber":"lower","state":"al","committee":"Rules","position":"member","type":"committee
+        member","start_date":null},{"term":"2011-2014","committee_id":"ALC000006","end_date":null,"chamber":"lower","state":"al","committee":"Constitutions,
+        Campaigns and Elections","position":"vice chair","type":"committee member","start_date":null},{"term":"2011-2014","committee_id":"ALC000067","end_date":null,"chamber":"lower","state":"al","committee":"County
+        and Municipal Government","position":"vice chair","type":"committee member","start_date":null}],"old_roles":"","url":"http:\/\/www.legislature.state.al.us\/house\/representatives\/housebios\/hd036.html","chamber":"lower","chamber_name":"House","offices":[{"fax":null,"name":"Capitol
+        Office","phone":"334-242-7700","address":"Room 424\n11 S. Union Street\nMontgomery,
+        AL 36130","type":"capitol","email":null}],"country":"us","office_phone":"334-242-7700"}],"versions":[{"mimetype":"application\/pdf","url":"http:\/\/alisondb.legislature.state.al.us\/acas\/searchableinstruments\/2013rs\/PrintFiles\/HB119-int.pdf","doc_id":"ALD00013146","name":"introduced","title":""}]}'
+    http_version: 
+  recorded_at: Tue, 24 Sep 2013 20:47:48 GMT
+recorded_with: VCR 2.5.0
