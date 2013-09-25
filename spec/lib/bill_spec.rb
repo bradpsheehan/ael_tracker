@@ -12,7 +12,7 @@ describe AelTracker::Bill do
 
   describe "GET bill" do
 
-    let(:bill) { AelTracker::Bill.new("1") }
+    let(:bill) { AelTracker::Bill.new(1) }
 
     before(:all) do
       VCR.insert_cassette 'bill', :record => :new_episodes
@@ -32,6 +32,30 @@ describe AelTracker::Bill do
 
     it "records the fixture" do
       expect( bill.profile["bill_id"] ).to eq "1"
+    end
+
+  end
+
+  describe "dynamic attributes" do
+
+    let(:bill) { AelTracker::Bill.new(1) }
+
+    before(:all) do
+      VCR.insert_cassette 'bill', :record => :new_episodes
+    end
+
+    after(:all) do
+      VCR.eject_cassette
+    end
+
+    it "must return the attribute value if present in profile" do
+      bill.profile
+      expect( bill.id ).to eq 1
+    end
+
+    it "must raise method missing if attribute is not present" do
+      bill.profile
+      expect( lambda { bill.foo_attribute } ).to raise_error( NoMethodError )
     end
 
   end

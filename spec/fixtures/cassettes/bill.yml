@@ -13,7 +13,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 25 Sep 2013 16:21:44 GMT
+      - Wed, 25 Sep 2013 17:39:49 GMT
       Server:
       - Apache/2.2.14 (Ubuntu)
       X-Powered-By:
@@ -28,8 +28,8 @@ http_interactions:
       encoding: UTF-8
       string: '{"bill_id":"1","os_bill_id":"ALB00004667","os_chamber":"lower","os_session":"2013rs","time_stamp_creation":"2013-03-30
         15:26:04 UTC","time_stamp_update":"2013-08-31 02:31:24 UTC","time_stamp_news_google":"2013-09-25
-        07:24:52 UTC","time_stamp_news_yahoo":"2013-09-25 13:20:40 UTC","time_stamp_os_check":"2013-09-25
-        15:20:01 UTC","auto_time_os_update":"2013-04-20 01:10:01","title":"Relating
+        17:21:19 UTC","time_stamp_news_yahoo":"2013-09-25 17:25:58 UTC","time_stamp_os_check":"2013-09-25
+        17:20:01 UTC","auto_time_os_update":"2013-04-20 01:10:01","title":"Relating
         to contracts for municipal buildings and public utilities systems; to authorize
         municipalities to enter into agreements with private companies that are registered
         as service contract providers to provide ancillary service contracts to customers
@@ -82,7 +82,7 @@ http_interactions:
         Office","phone":"334-242-7700","address":"Room 424\n11 S. Union Street\nMontgomery,
         AL 36130","type":"capitol","email":null}],"country":"us","office_phone":"334-242-7700"}],"versions":[{"mimetype":"application\/pdf","url":"http:\/\/alisondb.legislature.state.al.us\/acas\/searchableinstruments\/2013rs\/PrintFiles\/HB119-int.pdf","doc_id":"ALD00013146","name":"introduced","title":""}]}'
     http_version: 
-  recorded_at: Wed, 25 Sep 2013 16:21:44 GMT
+  recorded_at: Wed, 25 Sep 2013 17:39:49 GMT
 - request:
     method: get
     uri: http://www.aeltracker.org/api/bills/1
@@ -96,7 +96,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 25 Sep 2013 16:21:44 GMT
+      - Wed, 25 Sep 2013 17:39:50 GMT
       Server:
       - Apache/2.2.14 (Ubuntu)
       X-Powered-By:
@@ -111,8 +111,8 @@ http_interactions:
       encoding: UTF-8
       string: '{"bill_id":"1","os_bill_id":"ALB00004667","os_chamber":"lower","os_session":"2013rs","time_stamp_creation":"2013-03-30
         15:26:04 UTC","time_stamp_update":"2013-08-31 02:31:24 UTC","time_stamp_news_google":"2013-09-25
-        07:24:52 UTC","time_stamp_news_yahoo":"2013-09-25 13:20:40 UTC","time_stamp_os_check":"2013-09-25
-        15:20:01 UTC","auto_time_os_update":"2013-04-20 01:10:01","title":"Relating
+        17:21:19 UTC","time_stamp_news_yahoo":"2013-09-25 17:25:58 UTC","time_stamp_os_check":"2013-09-25
+        17:20:01 UTC","auto_time_os_update":"2013-04-20 01:10:01","title":"Relating
         to contracts for municipal buildings and public utilities systems; to authorize
         municipalities to enter into agreements with private companies that are registered
         as service contract providers to provide ancillary service contracts to customers
@@ -165,5 +165,5 @@ http_interactions:
         Office","phone":"334-242-7700","address":"Room 424\n11 S. Union Street\nMontgomery,
         AL 36130","type":"capitol","email":null}],"country":"us","office_phone":"334-242-7700"}],"versions":[{"mimetype":"application\/pdf","url":"http:\/\/alisondb.legislature.state.al.us\/acas\/searchableinstruments\/2013rs\/PrintFiles\/HB119-int.pdf","doc_id":"ALD00013146","name":"introduced","title":""}]}'
     http_version: 
-  recorded_at: Wed, 25 Sep 2013 16:21:44 GMT
+  recorded_at: Wed, 25 Sep 2013 17:39:50 GMT
 recorded_with: VCR 2.5.0
