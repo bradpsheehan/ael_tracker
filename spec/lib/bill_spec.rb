@@ -6,7 +6,7 @@ describe AelTracker::Bill do
     expect( AelTracker::Bill ).to include HTTParty
   end
 
-  it "must have the base url set to the Dribble API endpoint" do
+  it "must have the base url set to the AelTracker API endpoint" do
     expect( AelTracker::Bill.base_uri ).to eq 'http://www.aeltracker.org/api'
   end
 
