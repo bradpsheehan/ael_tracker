@@ -1,6 +1,6 @@
 # AEL Tracker
 
-Ruby wrapper for Advanced Energy Legislation Tracker API.
+Ruby wrapper for the Advanced Energy Legislation Tracker API.  http://www.aeltracker.org/api/
 
 ## Installation
 
