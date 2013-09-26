@@ -23,7 +23,7 @@ Or install it yourself as:
 
 ##Set Up
 
-Include the following lines in your ruby environment,
+Include the following line in your ruby environment,
 before the code:
 
     $ require 'ael_tracker'
