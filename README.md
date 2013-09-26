@@ -21,7 +21,9 @@ Or install it yourself as:
 
     $ gem install ael_tracker
 
-Include the following lines somewhere in your ruby environment
+##Set Up
+
+Include the following lines in your ruby environment,
 before the code:
 
     $ require 'ael_tracker'
