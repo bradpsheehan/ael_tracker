@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = AelTracker::VERSION
   spec.authors       = ["Bradley Sheehan"]
   spec.email         = ["bradpsheehan@gmail.com"]
-  spec.description   = %q{Allows people to access the Advanced Energy Legislation Tracker API using ruby}
+  spec.description   = %q{A little gem that integrates with the AelTracker API. From the official site: http://www.aeltracker.org/api.  The AelTracker (i.e. Advanced Energy Legislation Tracker) API provides methods for obtaining basic information about advanced energy legislation.}
   spec.summary       = %q{Ruby wrapper for Advanced Energy Legislation Tracker API.}
   spec.homepage      = ""
   spec.license       = "MIT"
