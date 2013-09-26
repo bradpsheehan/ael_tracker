@@ -2,7 +2,7 @@
 
 A little gem that integrates with the AelTracker API. From the official site: http://www.aeltracker.org/api/:
 
->The AelTracker (i.e. Advanced Energy Legislation Tracker) API provides methods for obtaining basic information about advanced energy lislation.
+>The AelTracker (i.e. Advanced Energy Legislation Tracker) API provides methods for obtaining basic information about advanced energy legislation.
 
 
 ## Installation
