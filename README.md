@@ -32,7 +32,7 @@ before the code:
 
 The ael_tracker gem does not yet fully wrap the AelTracker API.  What it does allow you to do is find bill specific information using the bill's id in the AEL Tracker database.
 
-To do this, create a new instance of Bill, passing in the bill id.  The following methods are available for your new bill instance:
+To do this, create a new instance of Bill, passing in the bill id.  Then, the following methods are available for obtaining information about this specific bill:
 
     bill_id
 
