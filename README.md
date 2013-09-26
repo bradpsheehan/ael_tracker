@@ -32,55 +32,55 @@ The ael_tracker gem does not yet fully wrap the AelTracker API.  What it does al
 
 Create a new instance of Bill, passing in the bill id.  The following methods are available for your new bill instance:
 
-$ bill_id
+    bill_id
 
-$ os_bill_id
+    os_bill_id
 
-$ os_chamber
+    os_chamber
 
-$ os_session
+    os_session
 
-$ time_stamp_creation
+    time_stamp_creation
 
-$ time_stamp_update
+    time_stamp_update
 
-$ time_stamp_news_google
+    time_stamp_news_google
 
-$ time_stamp_news_yahoo
+    time_stamp_news_yahoo
 
-$ time_stamp_os_check
+    time_stamp_os_check
 
-$ auto_time_os_update
+    auto_time_os_update
 
-$ title
+    title
 
-$ chamber_name
+    chamber_name
 
-$ number
+    number
 
-$ state
+    state
 
-$ year_filed
+    year_filed
 
-$ os_date_passed_lower
+    os_date_passed_lower
 
-$ os_date_passed_upper
+    os_date_passed_upper
 
-$ os_date_signed
+    os_date_signed
 
-$ os_status
+    os_status
 
-$ policy_category
+    policy_category
 
-$ summary
+    summary
 
-$ actions
+    actions
 
-$ votes
+    votes
 
-$ sponsors
+    sponsors
 
-$ versions
+    versions
 
 #####For example:
 
