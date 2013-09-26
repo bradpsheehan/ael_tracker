@@ -1,12 +1,17 @@
 # AEL Tracker
 
-Ruby wrapper for the Advanced Energy Legislation Tracker API.  http://www.aeltracker.org/api/
+A little gem that integrates with the AelTracker API. From the "official site":http://www.aeltracker.org/api/:
+
+bq. The AelTracker (i.e. Advanced Energy Legislation Tracker) API provides methods for obtaining basic information about advanced energy lislation.
+
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'ael_tracker'
+    $ source 'https://rubygems.org'
+
+    $ gem 'ael_tracker'
 
 And then execute:
 
@@ -16,9 +21,52 @@ Or install it yourself as:
 
     $ gem install ael_tracker
 
+Include the following lines somewhere in your ruby environment
+before the code:
+
+    $ require 'ael_tracker'
+
 ## Usage
 
-TODO: Write usage instructions here
+The ael_tracker gem does not yet fully wrap the AelTracker API.  What it does allow you to do is find bill specific information using the bill's id in the AEL Tracker database.
+
+Create a new instance of Bill, passing in the bill id.  The following methods are available for your new bill instance:
+
+bill_id
+os_bill_id
+os_chamber
+os_session
+time_stamp_creation
+time_stamp_update
+time_stamp_news_google
+time_stamp_news_yahoo
+time_stamp_os_check
+auto_time_os_update
+title
+chamber_name
+number
+state
+year_filed
+os_date_passed_lower
+os_date_passed_upper
+os_date_signed
+os_status
+policy_category
+summary
+actions
+votes
+sponsors
+versions
+
+For example:
+
+<pre><code>
+  bill = AelTracker::Bill.new(1)
+
+  bill.state                     # returns "Alabama"
+  bill.poicy_category            # returns "Infrastructure"
+</code></pre>
+
 
 ## Contributing
 
