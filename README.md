@@ -1,8 +1,8 @@
 # AEL Tracker
 
-A little gem that integrates with the AelTracker API. From the "official site":http://www.aeltracker.org/api/:
+A little gem that integrates with the AelTracker API. From the official site: http://www.aeltracker.org/api/:
 
-bq. The AelTracker (i.e. Advanced Energy Legislation Tracker) API provides methods for obtaining basic information about advanced energy lislation.
+>The AelTracker (i.e. Advanced Energy Legislation Tracker) API provides methods for obtaining basic information about advanced energy lislation.
 
 
 ## Installation
@@ -32,33 +32,57 @@ The ael_tracker gem does not yet fully wrap the AelTracker API.  What it does al
 
 Create a new instance of Bill, passing in the bill id.  The following methods are available for your new bill instance:
 
-bill_id
-os_bill_id
-os_chamber
-os_session
-time_stamp_creation
-time_stamp_update
-time_stamp_news_google
-time_stamp_news_yahoo
-time_stamp_os_check
-auto_time_os_update
-title
-chamber_name
-number
-state
-year_filed
-os_date_passed_lower
-os_date_passed_upper
-os_date_signed
-os_status
-policy_category
-summary
-actions
-votes
-sponsors
-versions
+$ bill_id
 
-For example:
+$ os_bill_id
+
+$ os_chamber
+
+$ os_session
+
+$ time_stamp_creation
+
+$ time_stamp_update
+
+$ time_stamp_news_google
+
+$ time_stamp_news_yahoo
+
+$ time_stamp_os_check
+
+$ auto_time_os_update
+
+$ title
+
+$ chamber_name
+
+$ number
+
+$ state
+
+$ year_filed
+
+$ os_date_passed_lower
+
+$ os_date_passed_upper
+
+$ os_date_signed
+
+$ os_status
+
+$ policy_category
+
+$ summary
+
+$ actions
+
+$ votes
+
+$ sponsors
+
+$ versions
+
+#####For example:
 
 <pre><code>
   bill = AelTracker::Bill.new(1)
